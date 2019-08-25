@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/icMesas"
+            android:icon="@drawable/mesas_24dp"
+            android:title="@string/mesas"/>
+        <item
+            android:id="@+id/icProdutos"
+            android:icon="@drawable/produtos_24dp"
+            android:title="@string/produtos" />
+        <item
+            android:id="@+id/icListaProdAtrasados"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="@string/pedidos_atrasados" />
+        <item
+            android:id="@+id/icRelatorios"
+            android:icon="@drawable/relatorios_24dp"
+            android:title="@string/relatorios" />
+        <item
+            android:id="@+id/icTrocarUsuario"
+            android:icon="@drawable/trocar_usuario_24dp"
+            android:title="@string/trocar_de_usuario" />
+        <item
+            android:id="@+id/icEncerrarDia"
+            android:icon="@drawable/encerrar_dia_24dp"
+            android:title="@string/encerrar_dia" />
+
+    </group>
+
+    <item android:title="@string/ferramentas">
+        <menu>
+            <item
+                android:id="@+id/icConfig"
+                android:icon="@drawable/configuracoes_24dp"
+                android:title="@string/configuracoes" />
+            <item
+                android:id="@+id/icCalculadora"
+                android:icon="@drawable/ic_apps_black_24dp"
+                android:title="@string/calculadora" />
+            <item
+                android:id="@+id/icDesligar"
+                android:icon="@drawable/desligar_24dp"
+                android:title="@string/desligar" />
+        </menu>
+    </item>
+
+</menu>

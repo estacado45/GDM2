@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">GDM</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Configurações</string>
+    <string name="mesas">Mesas</string>
+    <string name="usuarios">Usuários</string>
+    <string name="nome">Nome</string>
+    <string name="senha">Senha</string>
+    <string name="conf_senha">Conf. a Senha</string>
+    <string name="mesa">Mesa</string>
+    <string name="fechar_mesa">Fechar Mesa</string>
+    <string name="fechar">Fechar</string>
+    <string name="produtos">Produtos</string>
+    <string name="pedidos_atrasados">Pedidos Atrasados</string>
+    <string name="relatorios">Relatórios</string>
+    <string name="trocar_de_usuario">Trocar de Usuário</string>
+    <string name="encerrar_dia">Encerrar Dia</string>
+    <string name="configuracoes">Configurações</string>
+    <string name="ferramentas">Ferramentas</string>
+    <string name="calculadora">Calculadora</string>
+    <string name="desligar">Desligar</string>
+    <string name="abertas">Abertas</string>
+    <string name="todas">Todas</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="pesquisar_produtos">Pesquisar produtos</string>
+    <string name="app_label">search</string>
+    <string name="title_activity_nova_mesa">Nova Mesa</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notificações</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="lista_produtos">Produtos</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="confirmacao">Confirmação</string>
+    <string name="title_activity_lista_prod_alerta">Lista de Produtos</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="alerta_erro">Algo deu Errado! Por Favor, Repita a Operação! </string>
+    <string name="categ1">Bebidas</string>
+    <string name="categ2">Porções</string>
+    <string name="categ3">Refeições</string>
+    <string name="categ4">Diversos</string>
+    <string name="title_activity_lista_produtos">Lista de Produtos</string>
+    <string name="title_activity_cadastros_categorias">Cadastro de Categorias</string>
+    <string name="voltar">Voltar</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="title_activity_cadastro_usuarios">Cadastro de Usuários</string>
+    <string name="title_activity_cadastro_produtos">Cadastro de Produtos</string>
+    <string name="operacao_cancelada">Operação Cancelada!</string>
+    <string name="operacao_realizada">Operação Realizada!</string>
+    <string name="codigo">Código</string>
+    <string name="descricao">Descrição</string>
+    <string name="categoria">Categoria</string>
+    <string name="valor">Valor(R$)</string>
+    <string name="hint_codigo">Digite o Código...</string>
+    <string name="hint_descricao">Digite a Descrição...</string>
+    <string name="hint_valor">Digite o Valor...</string>
+    <string name="hint_nome">Digite o Nome...</string>
+    <string name="hint_senha">Digite a Senha...</string>
+    <string name="hint_conf_senha">Confirme a Senha...</string>
+    <string name="erro_pesquisa">Digite algo para pesquisar...</string>
+    <string name="erro_codigo">Código já Existente!</string>
+    <string name="erro_descricao">Descrição já Existente!</string>
+
+
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_confirmar"
+        android:icon="@drawable/ic_adicionar"
+        android:title="@string/adicionar" />
+
+    <item
+        android:id="@+id/navigation_lista_produtos"
+        android:icon="@drawable/ic_close_black_24dp"
+        android:title="@string/lista_produtos" />
+
+    <item
+        android:id="@+id/navigation_cancelar"
+        android:icon="@drawable/ic_arrow_back_black_24dp"
+        android:title="@string/voltar" />
+
+</menu>

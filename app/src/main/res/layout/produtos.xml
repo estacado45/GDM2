@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/preto"
+    tools:context="br.com.gdm.gt.gdm.listas.Produtos">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tbrProdutos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/colorAccent"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            app:layout_scrollFlags="exitUntilCollapsed"
+            app:logo="@mipmap/logo_gdm"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="Produtos" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include
+        layout="@layout/content_produtos_gerencial"
+        android:layout_marginTop="4dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabNovoProduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:tint="@color/branco"
+        app:srcCompat="@drawable/ic_adicionar" />
+
+</android.support.design.widget.CoordinatorLayout>

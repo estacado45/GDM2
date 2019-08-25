@@ -1,0 +1,202 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fltCadastroUsuario"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/AppTheme.NoActionBar"
+    tools:context="br.com.gdm.gt.gdm.fragmentos.FgtCadastroUsuarios">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/preto"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tbrFgtCadUsuarios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4dp"
+            android:background="?attr/colorPrimary"
+            android:elevation="8dp"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            android:visibility="visible"
+            app:logo="@mipmap/logo_gdm"
+            app:title="@string/title_activity_cadastro_usuarios"
+            app:titleMarginStart="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/preto"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="@string/codigo"
+                android:textAllCaps="false"
+                android:textColor="@color/branco"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edtCadastroCodigoUsuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:elevation="@dimen/appbar_padding_top"
+                android:ems="10"
+                android:hint="@string/hint_codigo"
+                android:inputType="textPersonName"
+                android:textColorHighlight="@color/colorAccent"
+                android:textColorHint="@color/cinza"
+                android:textColorLink="@color/colorAccent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/preto"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="@string/nome"
+                android:textAllCaps="false"
+                android:textColor="@color/branco"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edtCadastroNomeUsuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:elevation="@dimen/appbar_padding_top"
+                android:ems="10"
+                android:hint="@string/hint_nome"
+                android:inputType="textPersonName"
+                android:textColorHighlight="@color/colorAccent"
+                android:textColorHint="@color/cinza"
+                android:textColorLink="@color/colorAccent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="@string/senha"
+                android:textColor="@color/branco"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edtCadastroSenhaUsuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/hint_senha"
+                android:inputType="textPassword"
+                android:textColorHint="@color/cinza" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView117"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="@string/conf_senha"
+                android:textColor="@color/branco"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edtCadastroConfSenhaUsuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/hint_senha"
+                android:inputType="textPassword"
+                android:textColorHint="@color/cinza" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnConfCadastroUsuarios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:background="@color/preto"
+                android:drawableLeft="@drawable/ic_check_black_24dp"
+                android:drawableTint="@color/verde"
+                android:text="@string/confirmar"
+                android:textColor="@color/branco"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btnCancelCadastroUsuarios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="1"
+                android:background="@color/preto"
+                android:drawableLeft="@drawable/ic_close_black_24dp"
+                android:drawableTint="@color/vermelho"
+                android:elevation="5dp"
+                android:text="@string/cancelar"
+                android:textColor="@color/branco"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/vpContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/preto"
+    tools:context="br.com.gdm.gt.gdm.atividades.NovaMesa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/preto"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tbrNovaMesa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginTop="4dp"
+            android:background="@color/colorAccent"
+            android:elevation="16dp"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:logo="@mipmap/logo_gdm"
+            app:title="Nova Mesa"
+            app:titleMarginStart="24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtCodNovaMesa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="2dp"
+                android:ems="10"
+                android:hint="Código da Mesa"
+                android:inputType="textPersonName"
+                android:textColor="@color/preto"
+                android:textColorHint="@color/cinza" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
+            android:orientation="vertical">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vpNovaMesaContainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_weight="1"></android.support.v4.view.ViewPager>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:foregroundTint="@color/colorAccent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnNovaMesaMenosQtd"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:background="@color/cinzaEscuro"
+                    android:tint="@color/branco"
+                    app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edtAuxQtd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="2"
+                        android:ems="10"
+                        android:enabled="false"
+                        android:freezesText="false"
+                        android:inputType="textPersonName"
+                        android:text="Qtd"
+                        android:textAlignment="center"
+                        android:textColor="@color/preto"
+                        android:visibility="visible"
+                        tools:enabled="false" />
+
+                    <EditText
+                        android:id="@+id/edtNovaMesaQtd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="4dp"
+                        android:layout_marginLeft="-4dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:text="1"
+                        android:textAlignment="center"
+                        android:textColor="@color/preto" />
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/btnNovaMesaMaisQtd"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:background="@color/cinzaEscuro"
+                    android:tint="@color/branco"
+                    app:srcCompat="@drawable/ic_arrow_forward_black_24dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navNovaMesa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:background="@color/preto"
+        app:itemIconTint="@color/branco"
+        app:itemTextColor="@color/branco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_goneMarginLeft="16dp"
+        app:menu="@menu/navigation_conf_cancel">
+
+    </android.support.design.widget.BottomNavigationView>
+
+</android.support.constraint.ConstraintLayout>
